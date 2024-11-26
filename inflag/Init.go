@@ -11,7 +11,7 @@ var parsedUrl config.Url
 
 func init() {
 	inputUrl := flag.String("url", "", "Input a full URL (e.g., http://example.com:80/path)")
-	
+
 	flag.Parse()
 	if len(*inputUrl) == 0 {
 		fmt.Println("No URL provided. Use --url to pass a URL.")
