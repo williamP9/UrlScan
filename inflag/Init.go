@@ -33,22 +33,6 @@ func init() {
 
 }
 func GetUrl() config.Url {
-	//// 动态生成 URL
-	//u := parsedUrl
-	//
-	//// 拼接 URL，确保只有在端口存在时才添加 ":port"
-	//var urlString string
-	//if u.Port != "" {
-	//	urlString = fmt.Sprintf("%s://%s:%s", u.Scheme, u.Host, u.Port)
-	//} else {
-	//	urlString = fmt.Sprintf("%s://%s", u.Scheme, u.Host)
-	//}
-	//
-	//// 如果路径存在，拼接路径
-	//if u.Path != "" {
-	//	urlString += u.Path
-	//}
-	//
-	//return urlString
+
 	return parsedUrl
 }
