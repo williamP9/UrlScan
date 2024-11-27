@@ -72,3 +72,6 @@ func Test_goroutine(t *testing.T) {
 		fmt.Println("----")
 	}
 }
+
+//https://www.topgoer.com/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/%E7%88%AC%E8%99%AB%E5%B0%8F%E6%A1%88%E4%BE%8B.html
+//https://liushuchun.gitbooks.io/golang/content/go_concurence.html
